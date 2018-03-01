@@ -13,7 +13,7 @@ begin
       -- the email in both original case and lowercase — when considering casing is just a
       -- security risk anyway? (somehow somewhere impersonating someone by claiming the same email,
       -- but with different casing).
-      --(Allow all emails)and lower(text) = text;
+      ;--(Allow all emails)and lower(text) = text;
 end;
 $_$;
 
